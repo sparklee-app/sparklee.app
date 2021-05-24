@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Lassen Sie uns Ihre kritischen Herausforderungen bei der Website <br> Entwicklung lösen"
+  title : "Sparklee"
   image : "images/banner-art.svg"
   content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
   button:
@@ -18,32 +18,32 @@ feature:
     - name : "Clean Code"
       icon : "fas fa-code"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
+
     # feature item loop
     - name : "Object Oriented"
       icon : "fas fa-object-group"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
+
     # feature item loop
     - name : "24h Service"
       icon : "fas fa-user-clock"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
+
     # feature item loop
     - name : "Value For Money"
       icon : "fas fa-heart"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
+
     # feature item loop
     - name : "Faster Response"
       icon : "fas fa-tachometer-alt"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
+
     # feature item loop
     - name : "Cloud Support"
       icon : "fas fa-cloud"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
+
 
 
 ######################### Service #####################
@@ -61,7 +61,7 @@ service:
         enable : true
         label : "Check it out"
         link : "#"
-        
+
     # service item loop
     - title : "It is a privately owned Information and cyber security company"
       images:
@@ -71,7 +71,7 @@ service:
         enable : true
         label : "Check it out"
         link : "#"
-        
+
     # service item loop
     - title : "It’s a team of experienced and skilled people with distributions"
       images:
@@ -81,7 +81,7 @@ service:
         enable : true
         label : "Check it out"
         link : "#"
-        
+
     # service item loop
     - title : "A company standing different from others"
       images:
@@ -91,14 +91,14 @@ service:
         enable : true
         label : "Check it out"
         link : "#"
-        
+
 ################### Screenshot ########################
 screenshot:
   enable : true
   title : "Experience the best <br> workflow with us"
   image : "images/screenshot.svg"
 
-  
+
 
 ##################### Call to action #####################
 call_to_action:
