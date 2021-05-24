@@ -1,9 +1,9 @@
 #################### default parameters ################################
-logo = "images/logo.png"
+logo = "images/logo_sparklee.png"
 logo_width = "200px"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "App to Share your favourite places"
+author = "Sparklee"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
