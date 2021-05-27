@@ -29,7 +29,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <h2 class="section-title  main-title-custom">{{ .title | markdownify }}</h2>
       </div>
     </div>
   </div>
@@ -72,16 +72,20 @@
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+      <div class="col-md-4 order-2 order-md-1">
+        <h3 class="section-title">{{ .title1 | markdownify }}</h3>
+        <p>{{ .content1 | markdownify }}</p>
+        <h3 class="section-title">{{ .title2 | markdownify }}</h3>
+        <p>{{ .content2 | markdownify }}</p>
+        <h3 class="section-title">{{ .title3 | markdownify }}</h3>
+        <p>{{ .content3 | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn-link">{{ .label }} <i class="fas fa-arrow-right"></i></a>
         {{ end }}
         {{ end }}
       </div>
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+      <div class="col-md-8 order-1 order-md-2 mb-4 mb-md-0">
         <div {{if gt (len .images) 1}} class="slider" {{end}}>
           {{ range .images }}
           <img src="{{ . | relURL }}" alt="" class="img-fluid">
