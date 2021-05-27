@@ -16,13 +16,14 @@
 screenshot:
   enable : true
   title : "Share your favorite spots"
-  image : "images/main_screen_site_02.png"
+  image : "images/main_screen_site.png"
 
 
 ######################### Service #####################
 service:
-  enable : false
+  enable : true
   service_item:
+    #### NOT SHOWING THAT ONE ####
     # service item loop
     # - title : "Welcome to Sparklee"
     #  images:
@@ -34,34 +35,19 @@ service:
     #    link : "#"
 
     # service item loop
-    - title : "Share your favourite places"
+    - title1 : "Remember your favorites places"
+      title2 : "Share them with your friends"
+      title3 : "Discover new places"
       images:
-      - "images/screen_homepage.png"
+      - "images/pls_screenshots.png"
       # - "images/service-2.png"
       # - "images/service-3.png"
-      content : "Remember your favourites places and the ones you want to try and Share them with your friends!"
-      button:
-        enable : false
-        label : "Check it out"
-        link : "#"
-        
+      content1 : "and the ones you want to try"
+      content2 : "and People with similar interests"
+      #and tastes
+      content3 : "recommended by People you trust"
+      #"Recommendations you can trust, from your friends and people with similar tastes"
 
-        
-    # service item loop
-    - title : "It’s a team of experienced and skilled people with distributions"
-      images:
-      - "images/service-2.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : false
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "Discover new places recommended by People you trust"
-      images:
-      - "images/service-3.png"
-      content : "Recommendations you can trust, from your friends and people with similar tastes"
       button:
         enable : false
         label : "Check it out"
