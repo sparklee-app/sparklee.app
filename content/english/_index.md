@@ -3,40 +3,45 @@
 
 ####################### Banner #########################
 # banner:
-#  title : "Welcome to Sparklee"
+#  title : "Share your favorite spots"
 #  image : "images/mascot_sparklee.png"
+#  image : "images/main_screen_site_02.png"
 #  content : "L'appli de Partage d'adresses Coup de Coeur ♥ "
 #  button:
 #    enable : true
 #    label : "Contact With Us"
 #    link : "contact"
 
+################### Screenshot ########################
+screenshot:
+  enable : true
+  title : "Share your favorite spots"
+  image : "images/main_screen_site_02.png"
+
 
 ######################### Service #####################
 service:
-  enable : true
+  enable : false
   service_item:
     # service item loop
-    - title : "Welcome to Sparklee"
-      images:
-      - "images/mascot_sparklee.png"
-      content : "L'appli de Partage d'adresses Coup de Coeur ♥"
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
+    # - title : "Welcome to Sparklee"
+    #  images:
+    #  - "images/mascot_sparklee.png"
+    #  content : "L'appli de Partage d'adresses Coup de Coeur ♥"
+    #  button:
+    #    enable : true
+    #    label : "Check it out"
+    #    link : "#"
 
     # service item loop
-    - title : "It is the most advanced digital marketing and it company."
+    - title : "Share your favourite places"
       images:
       - "images/screen_homepage.png"
       # - "images/service-2.png"
       # - "images/service-3.png"
-      content : " * Remember your favourites places and the ones you want to try <br> 
-      * Share them with your friends and People with similar interests <br>
-      * Discover new places recommended by People you trust"
+      content : "Remember your favourites places and the ones you want to try and Share them with your friends!"
       button:
-        enable : true
+        enable : false
         label : "Check it out"
         link : "#"
         
@@ -48,20 +53,19 @@ service:
       - "images/service-2.png"
       content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
       button:
-        enable : true
+        enable : false
         label : "Check it out"
         link : "#"
         
     # service item loop
-    - title : "A company standing different from others"
+    - title : "Discover new places recommended by People you trust"
       images:
       - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Recommendations you can trust, from your friends and people with similar tastes"
       button:
-        enable : true
+        enable : false
         label : "Check it out"
         link : "#"
-
 
 ##################### Feature ##########################
 feature:
@@ -100,11 +104,7 @@ feature:
 
 
         
-################### Screenshot ########################
-screenshot:
-  enable : true
-  title : "Experience the best <br> workflow with us"
-  image : "images/screenshot.svg"
+
 
   
 
