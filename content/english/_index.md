@@ -55,53 +55,35 @@ service:
 
 ##################### Feature ##########################
 feature:
-  enable : false
+  enable : true
   title : "Something You Need To Know"
   feature_item:
     # feature item loop
-    - name : "Clean Code"
-      icon : "fas fa-code"
+    - name : "All in One Place"
+      icon : "fas fa-landmark"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
     # feature item loop
-    - name : "Object Oriented"
-      icon : "fas fa-object-group"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "24h Service"
+    - name : "Recommendations you can trust"
       icon : "fas fa-user-clock"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
     # feature item loop
-    - name : "Value For Money"
+    - name : "Create your own City guide"
       icon : "fas fa-heart"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
-    # feature item loop
-    - name : "Faster Response"
-      icon : "fas fa-tachometer-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Cloud Support"
-      icon : "fas fa-cloud"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-
-
-        
-
-
-  
 
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Ready to get started?"
-  image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  title : "Want to be notified when it's ready?"
+  image : "images/mascot_sparklee.png"
+  content : "Leave your email and we'll let you know!"
+  #No spam, just a letter of love from us to you for your support!"
   button:
     enable : true
-    label : "Contact Us"
+    label : "YAAS PLEASE 🙌"
+    # NOT USING label HERE, directly in HTML
     link : "contact"
 ---

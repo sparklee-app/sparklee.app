@@ -39,31 +39,6 @@
 {{ end }}
 <!-- /screenshot -->
 
-<!-- feature -->
-{{ with .Params.feature }}
-{{ if .enable }}
-<section class="section bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .feature_item }}
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="feature-card text-center">
-          <i class="{{.icon}} mb-3"></i>
-          <h4 class="mb-2">{{ .name | title }}</h4>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /feature -->
-
 <!-- service -->
 {{ with .Params.service }}
 {{ if .enable }}
@@ -124,7 +99,30 @@
 {{ end }}
 <!-- /service -->
 
-
+<!-- feature -->
+{{ with .Params.feature }}
+{{ if .enable }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+      {{ range .feature_item }}
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="feature-card text-center">
+          <i class="{{.icon}} mb-3"></i>
+          <h4 class="mb-2">{{ .name | title }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /feature -->
 
 <!-- call to action -->
 {{ with .Params.call_to_action }}
@@ -138,11 +136,18 @@
       <div class="col-lg-5 col-md-6">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
-        {{ if .button.enable }}
+
+        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+          <!-- <input type="text" class="form-control mb-3" id="name" name="name" placeholder="{{ i18n "yourname" }}"> -->
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="{{ i18n "youremail" }}">
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n "sendnow" }}</button>
+        </form>
+
+        <!-- {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
-        {{ end }}
+        {{ end }} -->
       </div>
     </div>
   </div>
