@@ -2,7 +2,7 @@
 logo = "images/logo_sparklee.png"
 logo_width = "200px"
 # Meta data
-description = "App to Share your favourite places"
+description = "App to Share your favorite places"
 author = "Sparklee"
 # contact form action
 contact_form_action = "https://formspree.io/f/mleabjny" # contact form works with https://formspree.io
@@ -16,23 +16,24 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Notify Me"
-link = "contact"
+link = "" 
+#link defined directly in header.html !
 
   
 ############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[social]]
+#title = "facebook"
+#icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+#[[social]]
+#title = "twitter"
+#icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+#link = "#"
 
 [[social]]
-title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[social]]
-title = "skype"
-icon = "fab fa-skype" # themify icon : https://themify.me/themify-icons
+title = "instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 [[social]]

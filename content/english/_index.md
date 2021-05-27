@@ -55,7 +55,7 @@ service:
 
 ##################### Feature ##########################
 feature:
-  enable : true
+  enable : false
   title : "Something You Need To Know"
   feature_item:
     # feature item loop

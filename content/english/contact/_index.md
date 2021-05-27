@@ -1,15 +1,18 @@
 ---
-title: "Contact Us"
+title: "Let's Keep in Touch"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Contact Sparklee Team"
 draft: false
 ---
 
 
-### Why you should contact us!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+### We would love to hear from you!
+We are building Sparklee for its (future) users ✨<br>
+Any feedback, remark or suggestion is more than welcome! 
+Feel free to write us and we'll get back to you 🤗
 
-* **Phone: +88 125 256 452** 
-* **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+**✉️  Email: sparklee@mailo.com** <br>
+**📍  Currently based in: Lyon, France**
+
+PS: Yes, I am writing "we" even though I'm alone cause it sounds more professional 🤓
