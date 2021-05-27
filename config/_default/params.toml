@@ -5,7 +5,7 @@ logo_width = "200px"
 description = "App to Share your favourite places"
 author = "Sparklee"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/mleabjny" # contact form works with https://formspree.io
 
 # Preloader
 [preloader]
@@ -15,7 +15,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "Get Started"
+label = "Notify Me"
 link = "contact"
 
   
