@@ -15,7 +15,7 @@
 ################### Screenshot ########################
 screenshot:
   enable : true
-  title : "Share your favorite spots"
+  title : "Partage tes adresses Coup de Cœur"
   image : "images/main_screen_site.png"
 
 
@@ -35,17 +35,18 @@ service:
     #    link : "#"
 
     # service item loop
-    - title1 : "❤️ Remember your favorites places"
-      title2 : "👭 Share them with your friends"
-      title3 : "🌎 Discover new places"
+    - title1 : "❤️ Souviens-toi de tes endroits préférés"
+      # Ou "Garde une trace" plutôt ? 
+      title2 : "👭 Partage-les avec tes ami·e·s"
+      title3 : "🌎 Découvre de nouvelles adresses"
       images:
       - "images/pls_screenshots.png"
       # - "images/service-2.png"
       # - "images/service-3.png"
-      content1 : "and the ones you want to try"
-      content2 : "and People with similar interests"
+      content1 : "et ceux que tu veux tester"
+      content2 : "et les personnes de mêmes centres d'intérêt"
       #and tastes
-      content3 : "recommended by People you trust"
+      content3 : "recommandées par des personnes de confiance"
       #"Recommendations you can trust, from your friends and people with similar tastes"
 
       button:
@@ -77,9 +78,9 @@ feature:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Want to be notified when it's ready?"
+  title : "Tu veux être au courant quand c'est prêt ?"
   image : "images/mascot_sparklee.png"
-  content : "Leave your email and we'll let you know!"
+  content : "Laisse ton adresse mail et nous te tiendrons informé·e !"
   #No spam, just a letter of love from us to you for your support!"
   button:
     enable : true

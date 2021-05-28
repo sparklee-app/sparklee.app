@@ -19,6 +19,9 @@ other = "Subject"
 [yourmessage]
 other = "Your Message"
 
-[sendnow]
+[yasplease]
 other = "YAAS PLEASE 🙌"
-# DOES NOT SEEM TO WORK ? Prev: "Send Now"
+# DOES NOT SEEM TO WORK ? Prev: "Send Now" -> seems OK NOW
+
+[sendnow]
+other = "Send ✨"
