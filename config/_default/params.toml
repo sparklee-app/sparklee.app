@@ -17,7 +17,7 @@ preloader = "" # use jpg, png, svg or gif format.
 enable = true
 label = "Notify Me"
 link = "" 
-#link defined directly in header.html !
+#link defined directly in header.html ! TO DEFINE HERE?
 
   
 ############################# social site ########################
@@ -34,9 +34,9 @@ link = ""
 [[social]]
 title = "instagram"
 icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.instagram.com/sparklee.app/"
 
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/company/sparklee/"
