@@ -19,8 +19,8 @@ screenshot:
   image : "images/main_screen_site.png"
 
 
-######################### Service #####################
-service:
+######################### Service1 #####################
+service1:
   enable : true
   service_item:
     #### NOT SHOWING THAT ONE ####
@@ -52,6 +52,32 @@ service:
         enable : false
         label : "Check it out"
         link : "#"
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+
+    # service item loop
+    - title : "All in One Place"
+      images:
+      - "images/allinone.png"
+      content : "Tired of getting lost in your screenshots, notes and IG collections? Have all your Places recommendations in one centralised place and access it whenever, wherever!"
+
+    # service item loop
+    - title : "Recommendations you can trust"
+      images:
+      - "images/trust.png"
+      content : "Stop reading recommendations from strangers when you don't even know their tastes. Follow your Friends and People like you to discover their best spots!"
+    # favorite trusted influencers
+    # FR: Stop aux recommendations d'inconnus dont tu connais même pas les goûts
+
+    # service item loop
+    - title : "Create your own City guides"
+      images:
+      - "images/cityguide.png"
+      content : "Organised by city you lived in or type of food, you choose! It's about sharing those unique gems that you love ✨ <br> Easily and quickly add your recommendations with your own pictures and notes!"
+
 
 ##################### Feature ##########################
 feature:
