@@ -32,11 +32,12 @@ weight = 4
 
 # footer menu left
 [[footer_left]]
-name = "Contacte-nous!"
+name = "Contacte-nous !"
 url = "contact"
 
 [[footer_left]]
 name = "✉️ sparklee@mailo.com"
+url = "contact"
 #url = "mailto:sparklee@mailo.com"
 
 

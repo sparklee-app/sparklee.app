@@ -37,6 +37,7 @@ url = "contact"
 
 [[footer_left]]
 name = "✉️ sparklee@mailo.com"
+url = "contact"
 #url = "mailto:sparklee@mailo.com"
 
 

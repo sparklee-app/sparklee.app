@@ -1,15 +1,17 @@
 ---
-title: "Kontakt"
+title: "Restons en contact"
 subtitle: ""
 # meta description
-description: "Dies ist die Metabeschreibung"
+description: "Page de Contact pour Sparklee, l'application pour partager ses bonnes adresses"
 draft: false
 ---
 
 
-### Warum Sie uns kontaktieren sollten!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+### Nous serions ravis d'avoir vos retours!
 
-* **Phone: +88 125 256 452** 
-* **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+Nous créeons Sparklee pour ses (futur.e.s) utilisateur.ice.s ✨<br>
+Tout retour, remarque ou suggestion sont les bienvenus !
+N'hésitez pas à nous écrire et nous reviendrons vers vous 🤗
+
+**✉️  E-mail : sparklee@mailo.com** <br>
+**📍  Actuellement à : Lyon, France**

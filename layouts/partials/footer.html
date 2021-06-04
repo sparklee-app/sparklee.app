@@ -32,7 +32,8 @@
         {{ end }}
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
-        <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
+        <a class="d-block h3 mb-3" href="{{ site.BaseURL | relLangURL}}">
+          <!-- absLangURL -->
           {{ with site.Params.logo}}
           <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
           {{ else }}{{site.Title}}{{end}}

@@ -1,0 +1,26 @@
+[readmore]
+other = "Lire plus"
+
+[translations]
+other="Traductions"
+
+[error404]
+other = "Nous sommes vraiment désolés mais il semblerait qu'il n'y ait rien ici."
+
+[yourname]
+other = "Ton nom"
+
+[youremail]
+other = "Ton e-mail"
+
+[subject]
+other = "Sujet"
+
+[yourmessage]
+other = "Ton message"
+
+[yasplease]
+other = "OUIII 🙌"
+
+[sendnow]
+other = "Envoyer ✨"
