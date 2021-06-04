@@ -21,7 +21,6 @@ other = "Your Message"
 
 [yasplease]
 other = "YAAS PLEASE 🙌"
-# DOES NOT SEEM TO WORK ? Prev: "Send Now" -> seems OK NOW
 
 [sendnow]
 other = "Send ✨"

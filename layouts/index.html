@@ -53,11 +53,6 @@
         <p>{{ .content2 | markdownify }}</p>
         <h3 class="section-title">{{ .title3 | markdownify }}</h3>
         <p>{{ .content3 | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn-link">{{ .label }} <i class="fas fa-arrow-right"></i></a>
-        {{ end }}
-        {{ end }}
       </div>
       <div class="col-md-8 order-1 order-md-2 mb-4 mb-md-0">
         <div {{if gt (len .images) 1}} class="slider" {{end}}>
