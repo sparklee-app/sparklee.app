@@ -19,8 +19,8 @@ screenshot:
   image : "images/main_screen_site.png"
 
 
-######################### Service #####################
-service:
+######################### Service1 #####################
+service1:
   enable : true
   service_item:
     #### NOT SHOWING THAT ONE ####
@@ -53,6 +53,35 @@ service:
         enable : false
         label : "Check it out"
         link : "#"
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+
+    # service item loop
+    - title : "Tout en un seul endroit"
+      images:
+      - "images/allinone.png"
+      content : "Tu en as marre de te perdre dans tes multiples screenshots, notes et collections IG ?
+      Retrouve toutes tes recommandations dans un endroit centralisé pour les avoir toujours sous la main, facilement accessible !"
+      #facilement accessible et de manière organisée 
+
+    # service item loop
+    - title : "Recommandations de confiance"
+      images:
+      - "images/trust.png"
+      content : "Stop aux recommandations d'inconnus dont tu ne connais même pas les goûts. Suis tes ami.e.s et des personnes de confiance aux intérêts similaires et découvre leurs bonnes adresses !"
+    # goûts ? 
+    # leurs endroits favoris ? leurs meilleures adresses ? = best spots
+    # favorite trusted influencers
+
+    # service item loop
+    - title : "Crée tes propres City guides"
+      images:
+      - "images/cityguide.png"
+      content : "Classé par ville dans lesquelles tu as vécu ou par type de nourriture, c'est toi qui choisis ! Le but c'est de partager ces endroits uniques que tu adores ✨ <br> Ajoute tes recommandations rapidement et facilement avec tes propres photos et annotations !"
+      #gem = pépites ? Not only type of food bc = restos only?
 
 ##################### Feature ##########################
 feature:

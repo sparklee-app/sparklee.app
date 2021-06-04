@@ -70,7 +70,6 @@ service:
       - "images/trust.png"
       content : "Stop reading recommendations from strangers when you don't even know their tastes. Follow your Friends and People like you to discover their best spots!"
     # favorite trusted influencers
-    # FR: Stop aux recommendations d'inconnus dont tu connais même pas les goûts
 
     # service item loop
     - title : "Create your own City guides"

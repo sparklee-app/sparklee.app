@@ -1,11 +1,11 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation">
   <div class="container">
-    <!-- navbar -->
+    <!-- navbar // relLangURL-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand ml-4" href="{{ site.BaseURL | absLangURL }}">
+      <a class="navbar-brand ml-4" href="{{ site.BaseURL | relLangURL }}">
         {{ with site.Params.logo}}
-        <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relLangURL }}" alt="{{ site.Title }}">
+        <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
         {{ else }}{{site.Title}}{{end}}
       </a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-label="menu">
