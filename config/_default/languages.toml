@@ -1,7 +1,7 @@
 ############################# English ############################
 [en]
 languageName = "En"
-title = "Sparklee | Favourite Places ❤️"
+title = "Sparklee | Favorite Places ❤️"
 contentDir = "content/english" # content/english
 weight = 1
 ########### footer content ##########
