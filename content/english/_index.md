@@ -16,7 +16,7 @@
 screenshot:
   enable : true
   title : "Share your favorite spots"
-  image : "images/main_screen_site.png"
+  image : "images/main_screen_site.webp"
 
 
 ######################### Service1 #####################
@@ -39,7 +39,7 @@ service1:
       title2 : "👭 Share them with your friends"
       title3 : "🌎 Discover new places"
       images:
-      - "images/pls_screenshots.png"
+      - "images/pls_screenshots.webp"
       # - "images/service-2.png"
       # - "images/service-3.png"
       content1 : "and the ones you want to try"
@@ -61,13 +61,13 @@ service:
     # service item loop
     - title : "All in One Place"
       images:
-      - "images/allinone.png"
+      - "images/allinone.webp"
       content : "Tired of getting lost in your screenshots, notes and IG collections? Have all your Places recommendations in one centralised place and access it whenever, wherever!"
 
     # service item loop
     - title : "Recommendations you can trust"
       images:
-      - "images/trust.png"
+      - "images/trust.webp"
       content : "Instead of reading recommendations from strangers when you don't even know their tastes, Follow your Friends and People like you to discover their best spots!"
     # strangers whose tastes you don't know
     # favorite trusted influencers
@@ -75,7 +75,7 @@ service:
     # service item loop
     - title : "Create your own City guides"
       images:
-      - "images/cityguide.png"
+      - "images/cityguide.webp"
       content : "Organised by city you lived in or type of food, you choose! It's about sharing those unique gems that you love ✨ <br> Easily and quickly add your recommendations with your own pictures and notes!"
 
 
