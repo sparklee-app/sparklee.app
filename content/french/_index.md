@@ -43,7 +43,7 @@ service1:
       - "images/pls_screenshots.png"
       # - "images/service-2.png"
       # - "images/service-3.png"
-      content1 : "et ceux que tu veux tester"
+      content1 : "et de ceux que tu veux tester"
       content2 : "et les personnes de mêmes centres d'intérêt"
       #and tastes
       content3 : "recommandées par des personnes de confiance"
@@ -60,18 +60,24 @@ service:
   service_item:
 
     # service item loop
-    - title : "Tout en un seul endroit"
+    - title : "Regroupe tout en une application"
       images:
       - "images/allinone.png"
-      content : "Tu en as marre de te perdre dans tes multiples screenshots, notes et collections IG ?
-      Retrouve toutes tes recommandations dans un endroit centralisé pour les avoir toujours sous la main, facilement accessible !"
-      #facilement accessible et de manière organisée 
+      content : "Fatigué·e d'éparpiller tes bonnes adresses et endroits repérés entre tes notes, screenshots ou encore Collections IG ?
+      Retrouve tout en un endroit centralisé pour les avoir toujours sous la main, facilement accessible !"
+
+      # Fatigué·e de t'éparpiller 
+      # toutes tes recommandations
+      # dans toutes les sources d'informations
+      # toutes tes notes de voyage (Repérage d'endroits, Photos, Bons plans), obligée d'ouvrir plein d'applications # (toutes les applis)
+      # Regroupe tout en une seule avec / grâce à Sparklee !
+      # facilement accessible et de manière organisée 
 
     # service item loop
     - title : "Recommandations de confiance"
       images:
       - "images/trust.png"
-      content : "Stop aux recommandations d'inconnus dont tu ne connais même pas les goûts. Suis tes ami.e.s et des personnes de confiance aux intérêts similaires et découvre leurs bonnes adresses !"
+      content : "À la place de recommandations d'inconnus dont tu ne connais pas les goûts, suis tes ami·e·s et des personnes de confiance aux centres d'intérêt similaires et découvre leurs bonnes adresses !"
     # goûts ? 
     # leurs endroits favoris ? leurs meilleures adresses ? = best spots
     # favorite trusted influencers
