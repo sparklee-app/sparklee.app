@@ -16,7 +16,7 @@
 screenshot:
   enable : true
   title : "Partage tes adresses Coup de Cœur"
-  image : "images/main_screen_site.png"
+  image : "images/main_screen_site_fr.webp"
 
 
 ######################### Service1 #####################
@@ -40,7 +40,7 @@ service1:
       title2 : "👭 Partage-les avec tes ami·e·s"
       title3 : "🌎 Découvre de nouvelles adresses"
       images:
-      - "images/pls_screenshots.png"
+      - "images/pls_screenshots.webp"
       # - "images/service-2.png"
       # - "images/service-3.png"
       content1 : "et de ceux que tu veux tester"
@@ -62,7 +62,7 @@ service:
     # service item loop
     - title : "Regroupe tout en une application"
       images:
-      - "images/allinone.png"
+      - "images/allinone_fr.webp"
       content : "Fatigué·e d'éparpiller tes bonnes adresses et endroits repérés entre tes notes, screenshots ou encore Collections IG ?
       Retrouve tout en un endroit centralisé pour les avoir toujours sous la main, facilement accessible !"
 
@@ -76,7 +76,7 @@ service:
     # service item loop
     - title : "Recommandations de confiance"
       images:
-      - "images/trust.png"
+      - "images/trust.webp"
       content : "À la place de recommandations d'inconnus dont tu ne connais pas les goûts, suis tes ami·e·s et des personnes de confiance aux centres d'intérêt similaires et découvre leurs bonnes adresses !"
     # goûts ? 
     # leurs endroits favoris ? leurs meilleures adresses ? = best spots
@@ -85,7 +85,7 @@ service:
     # service item loop
     - title : "Crée tes propres City guides"
       images:
-      - "images/cityguide.png"
+      - "images/cityguide_fr.webp"
       content : "Classé par ville dans lesquelles tu as vécu ou par type de nourriture, c'est toi qui choisis ! Le but c'est de partager ces endroits uniques que tu adores ✨ <br> Ajoute tes recommandations rapidement et facilement avec tes propres photos et annotations !"
       #gem = pépites ? Not only type of food bc = restos only?
 
