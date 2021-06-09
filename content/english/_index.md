@@ -68,7 +68,8 @@ service:
     - title : "Recommendations you can trust"
       images:
       - "images/trust.png"
-      content : "Stop reading recommendations from strangers when you don't even know their tastes. Follow your Friends and People like you to discover their best spots!"
+      content : "Instead of reading recommendations from strangers when you don't even know their tastes, Follow your Friends and People like you to discover their best spots!"
+    # strangers whose tastes you don't know
     # favorite trusted influencers
 
     # service item loop
