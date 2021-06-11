@@ -18,13 +18,13 @@ copyright = "Copyright © 2021 Sparklee. All rights reserved."
 ############################# French ############################
 [fr]
 languageName = "Fr"
-title = "Sparklee | Adresses Coup de coeur ❤️"
+title = "Sparklee | Adresses Coup de cœur ❤️"
 contentDir = "content/french" 
 weight = 2
 ########### footer content ##########
 footer_menu_left = "Contact"
 footer_menu_middle = "Légal"
 #footer_menu_right = "Support"
-footer_content = "L'appli pour partager tes adresses coup de coeur ❤️✨"
+footer_content = "L'appli pour partager tes adresses coup de cœur ❤️✨"
 # copyright
 copyright = "Copyright © 2021 Sparklee. Tous droits réservés."

@@ -44,7 +44,7 @@ service1:
       # - "images/service-2.png"
       # - "images/service-3.png"
       content1 : "et de ceux que tu veux tester"
-      content2 : "et les personnes de mêmes centres d'intérêt"
+      content2 : "et les personnes aux mêmes centres d'intérêt"
       #and tastes
       content3 : "recommandées par des personnes de confiance"
       #"Recommendations you can trust, from your friends and people with similar tastes"
@@ -64,7 +64,7 @@ service:
       images:
       - "images/allinone_fr.webp"
       content : "Fatigué·e d'éparpiller tes bonnes adresses et endroits repérés entre tes notes, screenshots ou encore Collections IG ?
-      Retrouve tout en un endroit centralisé pour les avoir toujours sous la main, facilement accessible !"
+      Retrouve tout dans un endroit centralisé pour les avoir toujours sous la main, facilement accessibles !"
 
       # Fatigué·e de t'éparpiller 
       # toutes tes recommandations
@@ -86,7 +86,7 @@ service:
     - title : "Crée tes propres City guides"
       images:
       - "images/cityguide_fr.webp"
-      content : "Classé par ville dans lesquelles tu as vécu ou par type de nourriture, c'est toi qui choisis ! Le but c'est de partager ces endroits uniques que tu adores ✨ <br> Ajoute tes recommandations rapidement et facilement avec tes propres photos et annotations !"
+      content : "Classés par ville dans lesquelles tu as vécu ou par type (nourriture, choses à voir...), c'est toi qui choisis ! Le but c'est de partager ces endroits uniques que tu adores ✨ <br> Ajoute tes recommandations rapidement et facilement avec tes propres photos et annotations !"
       #gem = pépites ? Not only type of food bc = restos only?
 
 ##################### Feature ##########################
