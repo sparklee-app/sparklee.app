@@ -76,7 +76,7 @@ service:
     - title : "Create your own City guides"
       images:
       - "images/cityguide.webp"
-      content : "Organised by city you lived in or type of food, you choose! It's about sharing those unique gems that you love ✨ <br> Easily and quickly add your recommendations with your own pictures and notes!"
+      content : "Organised by city you lived in or by type (food, things to do...), you choose! It's about sharing those unique gems that you love ✨ Easily and quickly add your recommendations with your own pictures and notes!"
 
 
 ##################### Feature ##########################
